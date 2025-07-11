@@ -1,0 +1,37 @@
+/*this is my first CSS file*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 115%;
+}
+
+header {
+    background-color:rgb(0, 238, 255);
+}
+
+nav {
+    background-color:rgb(197, 197, 243);
+}
+
+main {
+    background-color:rgb(225, 225, 252);
+    font-size: 115%;
+}
+
+footer {
+    background-color:rgb(196, 196, 196);
+}
+
+li {
+    display: inline-block;
+    width: 33%;
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
+    color:blue;
+}
+
+p {
+    line-height:100%;
+}
