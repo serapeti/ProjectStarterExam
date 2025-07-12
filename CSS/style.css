@@ -1,0 +1,65 @@
+/*this is my second CSS file*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 115%;
+    background-color:#e69b100f;
+}
+
+header {
+    background-color:rgb(197, 197, 243);
+}
+
+header img {
+    width: 10%;
+    position: relative;
+    top: 20px;
+}
+
+nav {
+    display: inline-block;
+    width: 80%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+main {
+    background-color:#FFEB3B;
+    font-size: 115%;
+}
+
+.current{
+    background-color:#FFEB3B;
+    text-transform: uppercase;
+}
+
+.grid_example{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.flexbox_example{
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
+    color:blue;
+}
+
+p {
+    line-height:100%;
+}
+
+footer {
+    background-color:rgb(196, 196, 196);
+}
